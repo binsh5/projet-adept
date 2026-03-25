@@ -1,0 +1,16 @@
+{
+    "name": "projet-adept",
+    "version": "1.0.0",
+    "description": "Site web ADEPT INFORMATIQUE",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc --watch",
+        "dev": "tsc --watch"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "dev-tools": "^0.1.6"
+    }
+}

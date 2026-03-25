@@ -12,50 +12,63 @@
 
 <body>
     <nav id="navbar" class="sticky-top">
-    <div class="container-fluid px-3 py-3 d-flex align-items-center justify-content-between flex-column d-md-block">
-        <div class="d-none d-md-flex align-items-center justify-content-between">
-            <span class="navbar-brand mb-0"> <h5>ADEPT INFORMATIQUE</h5></span>
-            <button id="hamburger-md" class="d-none d-md-flex" onclick="toggleSidebar()" aria-label="Menu">
-                <img src="images/logo-ADEPT.svg" alt="logo ADEPT" id="nav-img-md">
+        <div class="container-fluid px-3 py-3 d-flex align-items-center justify-content-between flex-column d-md-block">
+            <div class="d-none d-md-flex align-items-center justify-content-between">
+                <span class="navbar-brand mb-0">
+                    <h5>ADEPT INFORMATIQUE</h5>
+                </span>
+                <button id="hamburger-md" class="d-none d-md-flex" onclick="toggleSidebar()" aria-label="Menu">
+                    <img src="images/logo-ADEPT.svg" alt="logo ADEPT" id="nav-img-md">
+                </button>
+            </div>
+            <div class="d-none d-md-flex justify-content-center gap-4 mt-1">
+                <a href="Accueil.html" class="nav-link-md">Accueil</a>
+                <a href="Achat.html" class="nav-link-md">Achat</a>
+                <a href="News.html" class="nav-link-md">News</a>
+                <a href="AProposDe.html" class="nav-link-md">À propos</a>
+                <a href="" class="nav-link-md">Download L'application mobile - Android</a>
+
+                <a href="" class="nav-link-md">Download L'application mobile -
+                    iOS</a>
+
+            </div>
+
+        </div>
+        <!-- mobile -->
+        <div class="d-flex d-md-none align-items-center justify-content-between w-100">
+            <span class="navbar-brand mb-0">ADEPT INFORMATIQUE</span>
+            <button id="hamburger" onclick="toggleMenu()" aria-label="Menu">
+                <img src="images/logo-ADEPT.svg" alt="logo ADEPT" id="nav-img">
             </button>
         </div>
-        <div class="d-none d-md-flex justify-content-center gap-4 mt-1">
-            <a href="Accueil.html" class="nav-link-md">Accueil</a>
-            <a href="Achat.html" class="nav-link-md">Achat</a>
-            <a href="News.html" class="nav-link-md">News</a>
-            <a href="AProposDe.html" class="nav-link-md">À propos</a>
-        </div>
-    </div>
-    <!-- mobile -->
-    <div class="d-flex d-md-none align-items-center justify-content-between w-100">
-        <span class="navbar-brand mb-0">ADEPT INFORMATIQUE</span>
-        <button id="hamburger" onclick="toggleMenu()" aria-label="Menu">
-            <img src="images/logo-ADEPT.svg" alt="logo ADEPT" id="nav-img">
-        </button>
-    </div>
         <div id="menu" class="w-100 d-md-none">
             <ul class="list-unstyled mb-0">
                 <li><a href="Accueil.html">Accueil</a></li>
                 <li><a href="Achat.html">Achat</a></li>
                 <li><a href="News.html">News</a></li>
                 <li><a href="AProposDe.html">À propos</a></li>
+                <li><a href="Download-Android.html">Download L'application mobile - Android</a></li>
+                <li><a href="Download-iOS.html">Download L'application mobile - iOS</a></li>
             </ul>
         </div>
-    </div>
-</nav>
+        </div>
+    </nav>
 
     <main>
 
     </main>
 
     <footer class="container-fluid sticky-bottom">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsam odit similique, odio deserunt suscipit asperiores iusto fugiat consequuntur cum obcaecati delectus totam, harum error debitis assumenda enim nisi voluptate.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsam odit similique, odio deserunt suscipit
+        asperiores iusto fugiat consequuntur cum obcaecati delectus totam, harum error debitis assumenda enim nisi
+        voluptate.
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <script src="nav.js"></script>
+    <script src="pop.ts"></script>
 </body>
 
 </html>
