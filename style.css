@@ -10,6 +10,32 @@ body {
     font-family: 'Segoe UI', sans-serif;
 }
 
+main {
+    position: relative;
+    margin-top: 25px;
+    flex: 1;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #2c2c2e;
+    border-top: 1px solid #3a3a3c;
+    padding: 1rem;
+    color: #aeaeb2;
+    font-size: 14px;
+    z-index: 100;
+}
+
+.QuiSommesNous,
+.Credits {
+    background-color: #545456;
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+
 /* ── MOBILE ── */
 #navbar {
     background: #2c2c2e;
@@ -29,9 +55,14 @@ body {
     align-items: center;
     justify-content: center;
     transition: background 0.2s ease;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
-#hamburger:hover { background: #48484a; }
+#hamburger:hover {
+    background: #48484a;
+}
+
 #hamburger:active {
     background: #545456;
     transform: scale(0.95);
@@ -45,7 +76,7 @@ body {
 
 .navbar-brand {
     color: #e8e8e8 !important;
-    font-size: 15px;
+    margin-left: 10px;
 }
 
 #menu {
@@ -85,6 +116,20 @@ body {
     border-radius: 0 10px 10px 0;
 }
 
+.News {
+    background-color: #545456;
+    border-radius: 50px;
+    margin-bottom: 25px;
+}
+
+.newsRow {
+    margin-bottom: 0px;
+}
+
+.newsContenu {
+    padding-top: 25px;
+}
+
 /* ── DESKTOP md+ ── */
 #sidebar {
     display: none;
@@ -107,14 +152,19 @@ body {
         width: 56px;
         height: 56px;
         padding: 10px;
-        cursor: pointer;
+        cursor: default;
         display: flex;
         align-items: center;
         justify-content: center;
         transition: background 0.2s ease;
+        pointer-events: none;
+        margin-right: 50px;
     }
 
-    #hamburger-md:hover { background: #48484a; }
+    #hamburger-md:hover {
+        background: #48484a;
+    }
+
     #hamburger-md:active {
         background: #545456;
         transform: scale(0.95);
@@ -126,7 +176,7 @@ body {
         object-fit: contain;
     }
 
-     #sidebar {
+    #sidebar {
         top: 89px;
         right: -220px;
         left: auto;
@@ -176,15 +226,33 @@ body {
         margin-top: 57px;
         padding: 1.5rem;
     }
+
+    .navbar-brand {
+        margin-left: 50px;
+    }
+
+    main {
+        margin-top: 200px;
+    }
+
+    .newsRow {
+        margin-bottom: 20px;
+    }
 }
 
-main{
-    position: relative;
-    top: 100px;
+
+.nav-link-md {
+    color: #aeaeb2;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    transition: background 0.2s ease, color 0.2s ease;
 }
 
-.News{
-    margin: 30px;
-    background-color: #545456;
-    border-radius: 50px;
+.nav-link-md:hover {
+    background: #3a3a3c;
+    color: #f5f5f5;
 }
