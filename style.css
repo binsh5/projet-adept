@@ -177,3 +177,14 @@ body {
         padding: 1.5rem;
     }
 }
+
+main{
+    position: relative;
+    top: 100px;
+}
+
+.News{
+    margin: 30px;
+    background-color: #545456;
+    border-radius: 50px;
+}
