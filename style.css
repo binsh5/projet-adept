@@ -81,19 +81,21 @@ footer {
     border-bottom: 2px solid #00C853;
 }
 
-.QuestionReponseLan{
+.QuestionReponseLan {
     background-color: #69696b;
     border-radius: 30px;
     padding: 30px;
 }
 
-.LogoDiscord{
+.LogoDiscord {
     max-height: 90px;
 }
+
 .LogoLan {
     max-height: 150px;
 }
-.LogoAdeptVieux{
+
+.LogoAdeptVieux {
     max-height: 150px;
 }
 
@@ -204,6 +206,14 @@ footer {
 /* ── DESKTOP md+ ── */
 #sidebar {
     display: none;
+}
+
+.EffacerLanBtn {
+    margin-left: 10px;
+}
+
+.InscrireLanBtn {
+    margin-right: 10px;
 }
 
 @media (min-width: 768px) {
