@@ -7,7 +7,7 @@
 body {
     background: #1c1c1e;
     color: #e8e8e8;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Exo 2', sans-serif;
 }
 
 main {
@@ -93,6 +93,9 @@ footer {
 .LogoLan {
     max-height: 150px;
 }
+.LogoAdeptVieux{
+    max-height: 150px;
+}
 
 .ContainerInscriptionLan {
     background-color: #545456;
@@ -140,8 +143,9 @@ footer {
 }
 
 .navbar-brand {
-    color: #e8e8e8 !important;
+    color: #00C853 !important;
     margin-left: 10px;
+    font-family: 'Orbitron', sans-serif;
 }
 
 #menu {
