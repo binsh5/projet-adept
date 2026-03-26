@@ -34,6 +34,71 @@ footer {
     background-color: #545456;
     border-radius: 30px;
     margin-bottom: 25px;
+    border-left: 2px solid #00C853;
+    border-bottom: 2px solid #00C853;
+}
+
+.descriptionLan {
+    background-color: #545456;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    border-left: 2px solid #00C853;
+    border-bottom: 2px solid #00C853;
+}
+
+.LiensIncriptionLan {
+    height: fit-content;
+    background-color: #545456;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    margin-left: 80px;
+    padding: 5px;
+    transition: background 0.2s ease, color 0.2s ease;
+    border-left: 2px solid #00C853;
+    border-bottom: 2px solid #00C853;
+}
+
+.LiensIncriptionLan a {
+    color: #e8e8e8;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.LiensIncriptionLan:hover {
+    background: #3a3a3c;
+    color: #f5f5f5;
+    border: 2px solid #00C853;
+}
+
+.DiscordLan,
+.FaqLan {
+    background-color: #545456;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    border-left: 2px solid #00C853;
+    border-bottom: 2px solid #00C853;
+}
+
+.QuestionReponseLan{
+    background-color: #69696b;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.LogoDiscord{
+    max-height: 90px;
+}
+.LogoLan {
+    max-height: 150px;
+}
+
+.ContainerInscriptionLan {
+    background-color: #545456;
+    border-radius: 30px;
+    border-left: 2px solid #00C853;
+    border-bottom: 2px solid #00C853;
 }
 
 /* ── MOBILE ── */
@@ -120,6 +185,8 @@ footer {
     background-color: #545456;
     border-radius: 50px;
     margin-bottom: 25px;
+    border-left: 2px solid #00C853;
+    border-bottom: 2px solid #00C853;
 }
 
 .newsRow {
@@ -255,4 +322,15 @@ footer {
 .nav-link-md:hover {
     background: #3a3a3c;
     color: #f5f5f5;
+}
+
+.nav-link-md.active {
+    color: #f5f5f5;
+    background: #3a3a3c;
+}
+
+#menu li a.active {
+    color: #f5f5f5;
+    background: #3a3a3c;
+    border-radius: 0 10px 10px 0;
 }
