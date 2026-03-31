@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 body {
     background: #1c1c1e;
     color: #e8e8e8;
@@ -17,16 +22,18 @@ main {
 }
 
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
-    left: 0;
-    right: 0;
     background: #2c2c2e;
     border-top: 1px solid #3a3a3c;
     padding: 1rem;
     color: #aeaeb2;
     font-size: 14px;
     z-index: 100;
+}
+
+section{
+    margin-bottom: 100px;
 }
 
 .QuiSommesNous,
@@ -216,6 +223,142 @@ footer {
     margin-right: 10px;
 }
 
+.nav-link-md {
+    color: #aeaeb2;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.nav-link-md:hover {
+    background: #3a3a3c;
+    color: #f5f5f5;
+}
+
+.nav-link-md.active {
+    color: #f5f5f5;
+    background: #3a3a3c;
+}
+
+#menu li a.active {
+    color: #f5f5f5;
+    background: #3a3a3c;
+    border-radius: 0 10px 10px 0;
+}
+
+.textVert {
+    color: #00C853;
+}
+
+.btnAccueilAPropos{
+    background-color: #00C853;
+    padding: 10px;
+    border: 2px solid #00c85300;
+    transition: all 0.2s ease;
+}
+
+.btnAccueilAPropos:hover {
+    background-color: black;
+    border: 2px solid #00C853;
+    color: #00C853;
+}
+
+.btnAccueilLan{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border: 2px solid #00C85300;
+    transition: all 0.2s ease;
+}
+
+.btnAccueilLan:hover {
+    background-color: black;
+    color: #00C853;
+    border: 2px solid #00C853;
+}
+
+.statAccueil {
+    background-color: dimgray;
+    padding: 20px;
+    border-top: black 2px solid;
+    border-bottom: black 2px solid;
+}
+
+.infoAccueil {
+    background-color: dimgray;
+    border-radius: 15px;
+    padding: 25px;
+    border: 2px solid black;
+}
+
+.cegepAccueil {
+    background-color: dimgray;
+    border-radius: 15px;
+    padding: 20px;
+    border: 2px solid black;
+    height: 100%;
+}
+
+.serviceAccueil {
+    background-color: black;
+    height: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid gray;
+}
+
+.titreAccueil{
+    font-size: 5rem;
+}
+
+#bienvenue{
+    padding-bottom: 80px;
+}
+
+.lienCegep{
+    background-color: #00C853;
+    color: #1c1c1e;
+    padding: 10px 20px;
+    border: 2px solid #00C853;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.lienCegep:hover {
+    background-color: #00C853;
+    color: #1c1c1e;
+    border: 2px solid #00C853;
+    box-shadow: 0 0 10px #00C853;
+}
+
+.btnDiscord {
+    background-color: #7289da;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #7289da;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.btnDiscord:hover {
+    background-color: #7289da;
+    color: white;
+    border: 2px solid #7289da;
+    box-shadow: 0 0 10px #7289da;
+}
+
+.reseauxSociauxAccueil {
+    background-color: #545456;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
 @media (min-width: 768px) {
 
     #navbar {
@@ -319,32 +462,4 @@ footer {
     .newsRow {
         margin-bottom: 20px;
     }
-}
-
-
-.nav-link-md {
-    color: #aeaeb2;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 500;
-    letter-spacing: 0.3px;
-    padding: 6px 10px;
-    border-radius: 8px;
-    transition: background 0.2s ease, color 0.2s ease;
-}
-
-.nav-link-md:hover {
-    background: #3a3a3c;
-    color: #f5f5f5;
-}
-
-.nav-link-md.active {
-    color: #f5f5f5;
-    background: #3a3a3c;
-}
-
-#menu li a.active {
-    color: #f5f5f5;
-    background: #3a3a3c;
-    border-radius: 0 10px 10px 0;
 }
