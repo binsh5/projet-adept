@@ -32,7 +32,11 @@ footer {
     z-index: 100;
 }
 
-section{
+section {
+    margin-bottom: 100px;
+}
+
+hr {
     margin-bottom: 100px;
 }
 
@@ -43,6 +47,7 @@ section{
     margin-bottom: 25px;
     border-left: 2px solid #00C853;
     border-bottom: 2px solid #00C853;
+    box-shadow: -6px 6px 5px rgba(0, 200, 83, 0.3);
 }
 
 .descriptionLan {
@@ -51,6 +56,7 @@ section{
     margin-bottom: 25px;
     border-left: 2px solid #00C853;
     border-bottom: 2px solid #00C853;
+    box-shadow: -6px 6px 5px rgba(0, 200, 83, 0.3);
 }
 
 .LiensIncriptionLan {
@@ -63,6 +69,7 @@ section{
     transition: background 0.2s ease, color 0.2s ease;
     border-left: 2px solid #00C853;
     border-bottom: 2px solid #00C853;
+    box-shadow: -3px 3px 5px rgba(0, 200, 83, 0.3);
 }
 
 .LiensIncriptionLan a {
@@ -84,8 +91,9 @@ section{
     background-color: #545456;
     border-radius: 30px;
     margin-bottom: 25px;
-    border-left: 2px solid #00C853;
-    border-bottom: 2px solid #00C853;
+    border-left: 2px solid #7289da;
+    border-bottom: 2px solid #7289da;
+    box-shadow: -6px 6px 5px rgba(114, 137, 218, 0.3);
 }
 
 .QuestionReponseLan {
@@ -200,6 +208,7 @@ section{
     margin-bottom: 25px;
     border-left: 2px solid #00C853;
     border-bottom: 2px solid #00C853;
+    box-shadow: -6px 6px 5px rgba(0, 200, 83, 0.3);
 }
 
 .newsRow {
@@ -254,7 +263,7 @@ section{
     color: #00C853;
 }
 
-.btnAccueilAPropos{
+.btnAccueilAPropos {
     background-color: #00C853;
     padding: 10px;
     border: 2px solid #00c85300;
@@ -267,7 +276,7 @@ section{
     color: #00C853;
 }
 
-.btnAccueilLan{
+.btnAccueilLan {
     background-color: black;
     padding: 10px;
     color: white;
@@ -282,7 +291,7 @@ section{
 }
 
 .statAccueil {
-    background-color: dimgray;
+    background-color: #545456;
     padding: 20px;
     border-top: black 2px solid;
     border-bottom: black 2px solid;
@@ -292,34 +301,37 @@ section{
     background-color: dimgray;
     border-radius: 15px;
     padding: 25px;
-    border: 2px solid black;
+    border: 1px solid #00C853;
+    box-shadow: 0 0 5px #00C853;
 }
 
 .cegepAccueil {
-    background-color: dimgray;
+    background-color: #545456;
     border-radius: 15px;
     padding: 20px;
-    border: 2px solid black;
+    border: 2px solid #00C853;
+    box-shadow: #00C853 0px 0px 5px;
     height: 100%;
 }
 
 .serviceAccueil {
-    background-color: black;
+    background-color: #545456;
     height: 100%;
     padding: 20px;
     border-radius: 15px;
-    border: 2px solid gray;
+    border: 2px solid #00C853;
+    box-shadow: #00C853 0px 0px 5px;
 }
 
-.titreAccueil{
+.titreAccueil {
     font-size: 5rem;
 }
 
-#bienvenue{
-    padding-bottom: 80px;
+#bienvenue {
+    padding-bottom: 100px;
 }
 
-.lienCegep{
+.lienCegep {
     background-color: #00C853;
     color: #1c1c1e;
     padding: 10px 20px;
@@ -356,7 +368,8 @@ section{
     border-radius: 30px;
     margin-bottom: 25px;
     padding: 20px;
-    border: 2px solid black;
+    border: 2px solid #7289da;
+    box-shadow: #7289da 0px 0px 5px;
 }
 
 @media (min-width: 768px) {
