@@ -61,7 +61,7 @@ hr {
 
 .LiensIncriptionLan {
     height: fit-content;
-    background-color: #545456;
+    background-color: #3e3e3f;
     border-radius: 30px;
     margin-bottom: 25px;
     margin-left: 80px;
@@ -73,7 +73,6 @@ hr {
 }
 
 .LiensIncriptionLan a {
-    color: #e8e8e8;
     text-decoration: none;
     font-weight: 500;
     padding: 10px 20px;
@@ -81,9 +80,8 @@ hr {
 }
 
 .LiensIncriptionLan:hover {
-    background: #3a3a3c;
-    color: #f5f5f5;
-    border: 2px solid #00C853;
+    background: #313131;
+    color: #00C853;
 }
 
 .DiscordLan,
@@ -217,6 +215,7 @@ hr {
 
 .newsContenu {
     padding-top: 25px;
+
 }
 
 /* ── DESKTOP md+ ── */
@@ -331,6 +330,27 @@ hr {
     padding-bottom: 100px;
 }
 
+#bienvenue::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(ellipse 60% 50% at 50% 40%, rgba(0, 200, 83, 0.08) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+/* grille déco en fond */
+#bienvenue::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(0, 200, 83, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 200, 83, 0.04) 1px, transparent 1px);
+    background-size: 48px 48px;
+    pointer-events: none;
+}
+
 .lienCegep {
     background-color: #00C853;
     color: #1c1c1e;
@@ -363,13 +383,72 @@ hr {
     box-shadow: 0 0 10px #7289da;
 }
 
-.reseauxSociauxAccueil {
+.btnFacebook {
+    background-color: #1877F2;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #1877F2;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.btnFacebook:hover {
+    background-color: #1877F2;
+    color: white;
+    border: 2px solid #1877F2;
+    box-shadow: 0 0 10px #1877F2;
+}
+
+.btnInstagram {
+    background-color: #E1306C;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #E1306C;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.btnInstagram:hover {
+    background-color: #E1306C;
+    color: white;
+    border: 2px solid #E1306C;
+    box-shadow: 0 0 10px #E1306C;
+}
+
+.discordAccueil {
     background-color: #545456;
     border-radius: 30px;
     margin-bottom: 25px;
     padding: 20px;
     border: 2px solid #7289da;
     box-shadow: #7289da 0px 0px 5px;
+}
+
+.facebookAccueil {
+    background-color: #545456;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 2px solid #1877F2;
+    box-shadow: #1877F2 0px 0px 5px;
+}
+
+.instagramAccueil {
+    background-color: #545456;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 2px solid #E1306C;
+    box-shadow: #E1306C 0px 0px 5px;
+}
+
+.nomCredits {
+    color: #76eaa6;
+}
+
+.titre {
+    color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
 }
 
 @media (min-width: 768px) {
